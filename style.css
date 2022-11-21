@@ -20,4 +20,10 @@
 
 img {
     width: 1200px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
 }
