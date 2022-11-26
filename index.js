@@ -1,4 +1,5 @@
 var certificados = document.getElementById('certificados')
+var projetos = document.getElementById('projetos')
 var certificadoHTML = document.getElementById('certificadoHtml')
 var certificadoCSS = document.getElementById('certificadoCss')
 var certificadoJSBasico = document.getElementById('certificadoJsBasico')
