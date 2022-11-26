@@ -27,3 +27,32 @@ main {
     display: flex;
     flex-direction: column;
 }
+
+#certificados {
+    background-color: rgb(31, 31, 31);
+}
+
+.certificadoClick {
+    cursor: pointer;
+}
+
+.mostrar {
+    display: flex;
+}
+
+.esconder {
+    display: none;
+}
+
+.certificado {
+    margin: 50px;
+    background-color: rgb(31, 31, 31);
+}
+
+.certificadoClick {
+    background-color: rgb(31, 31, 31);
+}
+
+.certificadoClick:hover {
+    background-color: rgb(64, 64, 64);
+}
