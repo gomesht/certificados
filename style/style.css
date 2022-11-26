@@ -658,4 +658,102 @@ main {
   gap: 20px;
 }
 
+@media (max-width: 1024px) {
+
+  img {
+    width: 800px;
+  }
+
+  a:hover {
+    border: none;
+  }
+
+  .certificadoClick:hover {
+    border: none;
+  }
+
+  .topBar {
+    flex-direction: column;
+  }
+
+  .glass {
+    width: 850px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  img {
+    width: 400px;
+  }
+
+  a:hover {
+    border: none;
+  }
+
+  .certificadoClick:hover {
+    border: none;
+  }
+
+  .topBar {
+    flex-direction: column;
+  }
+
+  .glass {
+    width: 450px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  img {
+    width: 300px;
+  }
+
+  a:hover {
+    border: none;
+  }
+
+  .certificadoClick:hover {
+    border: none;
+  }
+
+  .topBar {
+    flex-direction: column;
+  }
+
+  .glass {
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+
+  img {
+    width: 250px;
+  }
+
+  a:hover {
+    border: none;
+  }
+
+  .certificadoClick:hover {
+    border: none;
+  }
+
+  .topBar {
+    flex-direction: column;
+  }
+
+  .glass {
+    width: 280px;
+  }
+}
+
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */
