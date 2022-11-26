@@ -1,16 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
 
+body {
+    background-color: black;
+}
+
 .topBar {
     display: flex;
     justify-content: space-between;
+    padding: 5px 10px;
 }
 
 .direita {
@@ -28,7 +32,8 @@ main {
     flex-direction: column;
 }
 
-#certificados {
+#certificados,
+#projetos {
     background-color: rgb(31, 31, 31);
 }
 
@@ -56,6 +61,11 @@ main {
 .certificadoClick:hover {
     background-color: rgb(64, 64, 64);
 }
+
+a:hover {
+    background-color: rgb(64, 64, 64);
+}
+
 
 li {
     margin-left: 30px;
